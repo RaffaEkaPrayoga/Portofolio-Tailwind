@@ -45,6 +45,19 @@
     @apply hover:text-orange-500 transition-all duration-300
 }
 
+.linear-gradient {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(12, 74, 110));
+    width: 100%;
+    height: 30%;
+}
+
+ .container {
+     position: relative;
+     /* Kontainer harus relative untuk positioning absolute di dalamnya */
+     overflow: hidden;
+     /* Menghindari elemen keluar dari kontainer */
+ }
+
 .timeline {
     position: relative;
 }
