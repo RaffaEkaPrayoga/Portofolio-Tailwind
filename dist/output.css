@@ -2985,6 +2985,18 @@ video {
   color: rgb(249 115 22 / var(--tw-text-opacity));
 }
 
+.responsive-svg {
+  width: 400px;
+  height: 400px;
+}
+
+@media screen and (max-width: 425px) {
+  .responsive-svg {
+    width: 300px;
+    height: 300px;
+  }
+}
+
 .linear-gradient {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(12, 74, 110));
   width: 100%;
@@ -3219,10 +3231,6 @@ video {
     text-align: left;
   }
 
-  .md\:text-center {
-    text-align: center;
-  }
-
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -3286,10 +3294,6 @@ video {
 
   .lg\:text-left {
     text-align: left;
-  }
-
-  .lg\:text-center {
-    text-align: center;
   }
 
   .lg\:text-right {
