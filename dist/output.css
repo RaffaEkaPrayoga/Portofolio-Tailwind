@@ -656,6 +656,21 @@ video {
   margin-bottom: 8rem;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.my-28 {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.my-24 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
 .-mt-20 {
   margin-top: -5rem;
 }
@@ -720,6 +735,14 @@ video {
   margin-top: 1.5rem;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.-mt-5 {
+  margin-top: -1.25rem;
+}
+
 .block {
   display: block;
 }
@@ -770,6 +793,34 @@ video {
 
 .max-w-xl {
   max-width: 36rem;
+}
+
+.max-w-\[\] {
+  max-width: ;
+}
+
+.max-w-\[500px\] {
+  max-width: 500px;
+}
+
+.max-w-\[100\] {
+  max-width: 100;
+}
+
+.max-w-\[100\%\] {
+  max-width: 100%;
+}
+
+.max-w-\[120\%\] {
+  max-width: 120%;
+}
+
+.max-w-\[130\%\] {
+  max-width: 130%;
+}
+
+.max-w-\[200\%\] {
+  max-width: 200%;
 }
 
 .origin-bottom-left {
@@ -1044,6 +1095,22 @@ video {
 
 .pt-16 {
   padding-top: 4rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pt-24 {
+  padding-top: 6rem;
+}
+
+.pt-28 {
+  padding-top: 7rem;
 }
 
 .text-center {
@@ -1478,6 +1545,10 @@ html {
 @media (min-width: 1024px) {
   .lg\:ml-8 {
     margin-left: 2rem;
+  }
+
+  .lg\:mb-10 {
+    margin-bottom: 2.5rem;
   }
 
   .lg\:block {

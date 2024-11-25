@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="dist/output.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
 </head>
 
 <body class="font-poppins">
@@ -132,14 +133,14 @@
     </section>
 
     <!-- About Start -->
-    <section id="about" class="py-20">
-        <div class="w-full px-4 mb-4" data-aos="fade-up" data-aos-duration="1000">
-            <div class="max-w-xl mx-auto text-center mb-20">
+    <section id="about" class="pt-28 pb-10 bg-slate-100">
+        <div class="w-full px-4" data-aos="fade-up" data-aos-duration="1000">
+            <div class="max-w-xl mx-auto text-center lg:mb-10 ">
                 <h4 class="font-semibold text-lg text-orange-600 mb-2">Tentang</h4>
                 <h2 class="font-bold text-3xl mb-4 ">Raffa Eka Prayoga</h2>
             </div>
         </div>
-        <div class="flex flex-wrap flex-col-reverse justify-center items-center lg:flex-row">
+        <div class="flex flex-wrap flex-col-reverse justify-center items-center lg:flex-row -mt-5">
             <div class="w-full mb-10 px-3 lg:px-0 lg:w-1/3 max-w-md" data-aos="fade-down-right"
                 data-aos-duration="1000">
                 <h4 class="font-bold uppercase text-orange-600 text-lg mt-3 mx-5 lg:text-right text-center">Perkenalkan!
@@ -158,7 +159,8 @@
                 </p>
             </div>
             <div class="w-full lg:w-1/3 flex justify-center" data-aos="fade-down-left" data-aos-duration="800">
-                <img src="img/about.jpg" alt="about me" class="-mt-20" loading="lazy">
+                <dotlottie-player src="https://lottie.host/8e6f7cfa-355f-483d-b4b7-dc1db179a4c3/6qXje93k2w.lottie"
+                    background="transparent" speed="1" loop autoplay alt="about me" loading="lazy"></dotlottie-player>
             </div>
         </div>
     </section>
@@ -286,7 +288,7 @@
     <!-- Portofolio End -->
 
     <!-- Hobi dan Minat -->
-    <section id="hobi" class="pt-12">
+    <section id="hobi" class="pt-24">
         <div class="px-10" data-aos="zoom-in-up" data-aos-duration="1000">
             <div class="max-w-3xl mx-auto text-center mb-16">
                 <h4 class="font-semibold text-lg text-orange-600 mb-2">Minat dan Kegemaran</h4>
@@ -301,7 +303,7 @@
         <div class="px-10 mx-10 -mt-24">
             <div class="flex flex-col mx-auto bg-white">
                 <div class="w-full draggable">
-                    <div class="container flex flex-col items-center gap-16 mx-auto my-32">
+                    <div class="container flex flex-col items-center gap-16 mx-auto my-24">
                         <div class="grid w-full grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-2">
                             <div class="flex flex-col items-center gap-3 px-8 py-10 bg-slate-100 rounded-3xl shadow-lg tilt-js"
                                 data-aos="fade-right" data-aos-duration="1000">
